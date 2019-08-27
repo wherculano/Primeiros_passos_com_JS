@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora Flex</title>
+    <style>
+        input{
+            width:75px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Js - Aula 05: Calculadora Flex:</h1>
+    <img src="imagens/neutro.png" alt="imagem neutro" id="status">
+
+    <form name='frmFlex'>
+        <input type="number" name="txtEtanol" size="8" placeholder="R$ Etanol" step=0.001>
+        <!--step faz com que os valores sejam sempre float e aumentando sempre de 0.001 em 0.001-->
+        <input type="text" name="txtGasolina" size="8" placeholder="R$ Gasolina" step=0.001>
+        <input type="button" value="Vantagem" onclick="calcular()">
+        <input type="reset" value="Limpar" onclick="limpar()">
+    </form>
+
+    <script src="aula_05.js"></script>
+</body>
+</html>
