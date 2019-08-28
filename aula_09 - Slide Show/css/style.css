@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+}
+
+#main{
+    max-width: 1229px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
